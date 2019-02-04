@@ -1,0 +1,9 @@
+<h2>Settings</h2>
+<select>
+    <option ng-repeat="x in name">{{x}}</option>
+  </select>
+<ul class="items">
+  <li *ngFor="let item of items">
+    <span class="badge">{{item.id}}</span> {{item.name}}
+  </li>
+</ul>
